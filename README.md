@@ -1,12 +1,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
+  <img src="https://i.ibb.co/NjCg8H8/background111-1.jpg"  alt="Mockup"  width="900">
   <h3 align="center">MySensor App</h3>
 
   <p align="center">
     An app for connecting to Bluetooth Low Energy devices in React-Native.
   </p>
-  <img src="https://i.ibb.co/NjCg8H8/background111-1.jpg"  alt="Mockup"  width="900">
 </p>
 
 
