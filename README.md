@@ -1,10 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
+  <img src="https://i.ibb.co/NjCg8H8/background111-1.jpg"  alt="Mockup">
   <h3 align="center">MySensor App</h3>
 
   <p align="center">
