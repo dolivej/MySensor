@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "394408075125",
+    "project_id": "mysensor-db23b",
+    "storage_bucket": "mysensor-db23b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394408075125:android:57ca56eddea693ea247d3c",
+        "android_client_info": {
+          "package_name": "com.mysensor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394408075125-c9bno4ujsh7g4sombgi0i6b595v3jitv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9uGSwAMHwkiJQJAFEpeK8HM3aZp_AJyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394408075125-c9bno4ujsh7g4sombgi0i6b595v3jitv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
