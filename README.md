@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <img src="https://i.ibb.co/NjCg8H8/background111-1.jpg"  alt="Mockup">
+  <img src="https://i.ibb.co/NjCg8H8/background111-1.jpg"  alt="Mockup"  width="900">
   <h3 align="center">MySensor App</h3>
 
   <p align="center">
@@ -41,7 +41,7 @@
 ## About The Project
 
 <p align="center">
-  <img src="https://i.ibb.co/56MFD6j/background1111.jpg"  alt="Mockup">
+  <img src="https://i.ibb.co/56MFD6j/background1111.jpg"  alt="Mockup" width="500">
 </p>
 
 This app was created to be the base prototype app for a companies BLE sensor device which reads data about your enviornment like air quality, temperature, humidity etc.
