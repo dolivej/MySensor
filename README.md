@@ -40,7 +40,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<p align="center">
+  <img src="https://i.ibb.co/56MFD6j/background1111.jpg"  alt="Mockup">
+</p>
 
 This app was created to be the base prototype app for a companies BLE sensor device which reads data about your enviornment like air quality, temperature, humidity etc.
 
@@ -153,7 +155,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Feel free to use any code from this repo in your own projects.
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: images/screenshot.png
