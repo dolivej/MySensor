@@ -103,7 +103,7 @@ This is what react-native will use to find a device when trying to build the pro
 
 <!-- USAGE -->
 ## Usage
-1. Set Up X-Code or Android Studeio for your development OS and target OS
+1. Set Up X-Code or Android Studio for your development OS and target OS
    ```sh
    https://reactnative.dev/docs/environment-setup
    ```
