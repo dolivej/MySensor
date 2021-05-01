@@ -34,6 +34,7 @@ export const createPersistentNotification = (title, message, id) => {
 };
 
 export const createNotification = (title, message) => {
+  console.log("here")
   PushNotification.localNotification({
     /* Android Only Properties */
     channelId: 'mysensor',
