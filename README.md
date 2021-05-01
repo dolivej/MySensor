@@ -103,22 +103,15 @@ This installation uses npm, make sure to have the latest LTS version of node.js 
    ```sh
    https://reactnative.dev/docs/environment-setup
    ```
-2. Set Up USB Debugging
-   ```sh
-   https://reactnative.dev/docs/running-on-device
-   ```
-4. If on Mac Provide Access to Gradlew
+2. If on Mac Provide Access to Gradlew
    ```sh
    chmod 755 android/gradlew 
    ```
-5. Build The Project via USB
+3. Build the app via USB Debugging
    ```sh
-   npm run android
+   https://reactnative.dev/docs/running-on-device
    ```
-   ```sh
-   npm run ios
-   ```
-5. Set Up Wireless Debugging (Optional)
+4. Set Up Wireless Debugging (Optional)
    ```sh
    https://reactnative.dev/docs/running-on-device
    ```
