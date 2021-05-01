@@ -62,21 +62,21 @@ This app is a prototype and many of the UI components are using dummy data at th
 
 The following open source packages make this project possible! Check them out for how to use them and to understand how they are used in the project.
 * [React-Navigation](https://reactnavigation.org/)
-  * This is an incredible package that allows for various types of navigation in a mobile app like stacks, drawers and tab navigation
-  * It is super well documented and very customizable
+  * This is a package that allows for various types of navigation in a mobile app like stacks, drawers and tab navigation
+  * Well documented and very customizable
 * [React-Native-Background-Fetch](https://www.npmjs.com/package/react-native-background-fetch)
   * This is a great free package from transistorsoftware that allows for you to set up background jobs that can run when an app is closed
 * [React-Native-Background-Timer](https://github.com/ocetnik/react-native-background-timer)
   * This package allows for a similar function to traditional setInterval, however it persists even when the app is minimized!
   * `NOTE: this package only works with class functions and cannot access hook useState!`
 * [React-Native-BLE-PLX](https://polidea.github.io/react-native-ble-plx/)
-  * Extreemly well documented package which handles all BLE aspects including being able to turn on the device bluetooth scanner
+  * Well documented package which handles all BLE aspects including being able to turn on the device bluetooth scanner
   * `NOTE: this package returns alot of cyclic objects so if you try to print them out directly you may get un-expected outputs as console.log cyclic objects can be a bit wonky, as a hack, if you want to print them you can wrap them in a array`
 * [React-Native-Push-Notifications](https://www.npmjs.com/package/react-native-push-notification)
-  * Very simple and easy to use package that allows for local push notifications
+  * Simple and easy to use package that allows for local push notifications
 * [React-Native-Firebase](https://rnfirebase.io/)
   * Amazing service from firebase that covers the authentication, cloud and analytical aspect of a mobile application
-  * Well documented, very generous free tier for testing/building
+  * Well documented with free tier for testing/building
 
 
 <!-- GETTING STARTED -->
