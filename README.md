@@ -107,6 +107,9 @@ This installation uses npm, make sure to have the latest LTS version of node.js 
    ```sh
    chmod 755 android/gradlew 
    ```
+   
+If you only want to run on an emulator stop here, start an emulator device and run the project. (You wont be able to use BLE features)
+
 3. Build the app via USB Debugging
    ```sh
    https://reactnative.dev/docs/running-on-device
