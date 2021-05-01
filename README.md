@@ -84,13 +84,6 @@ The following open source packages make this project possible! Check them out fo
 
 Since this app uses features like bluetooth it is required to use this app on a real device to be able to test all the features.
 
-### Prerequisites
-
-First you will need either Android Studio or X-Code and make sure the device manager is available in your command line
-This is what react-native will use to find a device when trying to build the project
-[Android Studio](https://developer.android.com/studio)
-[X-Code](https://developer.apple.com/xcode/)
-
 ### Installation
 1. Clone the repo
    ```sh
@@ -102,7 +95,7 @@ This is what react-native will use to find a device when trying to build the pro
    ```
 
 <!-- USAGE -->
-## Usage
+## Usage/Testing
 1. Set Up X-Code or Android Studio for your development OS and target OS
    ```sh
    https://reactnative.dev/docs/environment-setup
