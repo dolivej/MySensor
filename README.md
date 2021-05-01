@@ -100,33 +100,31 @@ This is what react-native will use to find a device when trying to build the pro
    ```sh
    npm install
    ```
-3. Build in Android Studio or X-Code
-   ```sh
-   Open the project in Android Studio or X-Code and run gradle sync or pod install
-   Make sure to open as administrator
-   ```
 
 <!-- USAGE -->
 ## Usage
-1. Connect a Device via USB/Thunder-port
+1. Set Up X-Code or Android Studeio for your development OS and target OS
    ```sh
-   Make sure the device is visible to either adb or x-code equivilent 
+   https://reactnative.dev/docs/environment-setup
    ```
-2. Build The Project
+2. Set Up USB Debugging
+   ```sh
+   https://reactnative.dev/docs/running-on-device
+   ```
+4. If on Mac Provide Access to Gradlew
+   ```sh
+   chmod 755 android/gradlew 
+   ```
+5. Build The Project via USB
    ```sh
    npm run android
    ```
    ```sh
    npm run ios
    ```
-3. Set Up Wireless Debugging (optional)
+5. Set Up Wireless Debugging
    ```sh
-   Shake the phone then go to settings and set up a wireless port with your computer wireless ip address and the port as :8081
-   This allows for hot reloading without a connected wire (building still requires physical connection)
-   ```
-4. Connect to device
-   ```sh
-   This app was tested with the TI Launchpad with BLE, it was programmed with their ProjectZero code so the app is configured to turn off/on its LED via bluetooth, however you can connect to any BLE device with this app.
+   https://reactnative.dev/docs/running-on-device
    ```
 
 <!-- ROADMAP -->
