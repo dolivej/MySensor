@@ -84,7 +84,7 @@ The following open source packages make this project possible! Check them out fo
 
 Since this app uses features like bluetooth it is required to use this app on a real device to be able to test all the features.
 
-### Prerequisite 
+### Prerequisites 
 This installation uses npm, make sure to have the latest LTS version of node.js installed on your computer: https://nodejs.org/en/download/
 
 ### Installation
