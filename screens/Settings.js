@@ -21,7 +21,7 @@ import {COLORS, FONTS, SIZES} from '../constants';
 import {NavHeader} from '../components/';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import {TouchableOpacity} from 'react-native-gesture-handler';
-import {createNotification} from '../services/notificationService';
+import {createNotification, createNotificationChannel} from '../services/notificationService';
 import {
   startForegroundTick,
   endForegroundTick,
@@ -99,6 +99,8 @@ class SettingsSummary extends React.Component {
               borderRadius: 5,
             }}
             onPress={() => {
+              createNotificationChannel()
+              
               createNotification(
                 'TEST NOTIFICATION',
                 'THIS IS A TEST NOTIFICATION',
