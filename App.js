@@ -23,7 +23,7 @@ const theme = {
   },
 };
 
-//Dummy sensor data
+//Dummy sensor data, emulating what would be read from device
 const sensors = [
   {
     id: 1,
