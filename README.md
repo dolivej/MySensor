@@ -119,6 +119,39 @@ If you only want to run on an emulator stop here, start an emulator device and r
    https://reactnative.dev/docs/running-on-device
    ```
 
+<!-- SETUP ERRORS -->
+## Potential errors in set-up
+1.  Disk run out of space issue when installing packages in SDK manager:
+      Solved by deleting unnecessary programs to clear the disk spaces.
+
+2.  “JAVA_HOME is not in path” when running react-native run-android:
+      Need to install Java SDK and put it into the system variables to get rid of the error while running android.
+
+3.  "Unable to locate adb file" when starting a virtual device:
+      Attempt to fix the issues:
+        -Try fix it by deleting the adb files and putting it back.
+        -Update through SDK manager.
+        -Try fix it by updating project setting with the path to android/sdk/platform-tools folder 
+        -Restart Android Studio
+
+4.  “adb.exe is obsolete/has serious issue performance, needed to be updated” when opening a virtual device:
+      Can be safely ignored
+
+5.  Android emulator is extremely slow,cause program to crash/time out:
+ 	    Changes emulator type, smaller screen, VM heap size(512 MB) => make it run a little bit faster
+
+6.  Android emulator stuck on google loading screen (Most Important fix):
+      Failed attempt to fix the issues:
+        -Delete and add back adb files in the android/sdk/platform-tools folder.
+        -Uninstall then reinstall the emulators and counterpart.
+      Successful attempt:
+        Go to “create my virtual device” on AVD manager in Android Studio, go to advanced settings and manage ram size as below: 
+	  	    -Set RAM size to 1024 MB and VM heap size to 512 MB.
+
+7.  Gradle loaded really slow when opening the project on Android Studio:
+      Try fix it in the gradle tab, toggle the offline/online setting.
+
+
 <!-- ROADMAP -->
 ## Roadmap
 
